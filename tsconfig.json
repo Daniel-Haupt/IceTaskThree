@@ -1,6 +1,7 @@
 {
   "extends": "expo/tsconfig.base",
   "compilerOptions": {
-    "strict": true
+    "strict": true,
+    "types": []  // Add this line to limit auto-included types
   }
 }
